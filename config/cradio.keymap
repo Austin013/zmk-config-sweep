@@ -20,142 +20,142 @@
             key-positions = <0 9>;
             bindings = <&kp CAPS>;
         };
-        ESC {
+        esc {
             timeout-ms = <30>;
             key-positions = <1 2>;
             bindings = <&kp ESC>;    
         };
-        NUMPAD_LEFT {
+        numpad_left {
             timeout-ms = <30>;
             key-positions = <1 3>;
             bindings = <&to 4>;    
         };
-        BACK_TO_ZERO {
+        default {
             timeout-ms = <30>;
             key-positions = <1 2 3>;
             bindings = <&to 0>;    
         };
-        TILDE {
+        tilde {
             timeout-ms = <50>;
             key-positions = <2 3>;
             bindings = <&kp TILDE>;
         };
-        CLICKING {
+        clicking {
             timeout-ms = <50>;
             key-positions = <3 4>;
             bindings = <&kp LG(LA(X))>;
         };
-        SCROLLING {
+        scrolling {
             timeout-ms = <50>;
             key-positions = <5 6>;
             bindings = <&kp LG(LS(J))>;
         };
-        NIHONGO {
+        nihongo {
             timeout-ms = <50>;
             key-positions = <6 7>;
             bindings = <&kp LANG1>;
         };
-        ENGLISH {
+        english {
             timeout-ms = <50>;
             key-positions = <7 8>;
             bindings = <&kp LANG2>;
         };
-        APPS {
+        apps {
             timeout-ms = <50>;
             key-positions = <8 9>;
             bindings = <&kp LC(UP)>;
         };
-        WINDOWS {
+        windows {
             timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp LC(DOWN)>;
         };
-	combo_BACK {
+        combo_BACK {
             timeout-ms = <30>;
             key-positions = <11 13>;
             bindings = <&kp LG(LBKT)>;
         };
-    combo_FORWARD {
+        combo_FORWARD {
             timeout-ms = <30>;
             key-positions = <11 12>;
             bindings = <&kp LG(RBKT)>;
         };
-    combo_TAB {
+        combo_TAB {
             timeout-ms = <30>;
             key-positions = <12 13>;
             bindings = <&kp TAB>;
         };
-    WIN_LEFT {
+        win_left {
             timeout-ms = <30>;
             key-positions = <10 11 12>;
             bindings = <&kp LC(LEFT)>;
         };
-    WIN_RIGHT {
+        win_right {
             timeout-ms = <30>;
             key-positions = <17 18 19>;
             bindings = <&kp LC(RIGHT)>;
         };
-    SPOTLIGHT {
+        spotlight {
             timeout-ms = <30>;
             key-positions = <10 19>;
             bindings = <&kp LG(SPACE)>;
         };
-    combo_COLON {
+        combo_COLON {
             timeout-ms = <30>;
             key-positions = <11 18>;
             bindings = <&kp COLON>;
         };
-    combo_SEMI {
+        combo_SEMI {
             timeout-ms = <30>;
             key-positions = <12 17>;
             bindings = <&kp SEMI>;
         };
-    combo_MoveToLeftTab {
+        combo_MoveToLeftTab {
             timeout-ms = <50>;
             key-positions = <21 22>;
             bindings = <&kp LG(LA(LEFT))>;
         };
-    APP_SWAP {
+        app_swap {
             timeout-ms = <30>;
             key-positions = <22 23>;
             bindings = <&kp LG(TAB)>;
         };
-	WINDOW_SWAP {
+	    window_swap {
             timeout-ms = <30>;
             key-positions = <21 22 23>;
             bindings = <&kp LG(GRAVE)>;
         };
-	combo_MoveToRightTab {
+	    combo_MoveToRightTab {
             timeout-ms = <50>;
             key-positions = <23 24>;
             bindings = <&kp LG(LA(RIGHT))>;
         };
-	combo_HOME {
+	    combo_HOME {
             timeout-ms = <50>;
             key-positions = <26 27>;
             bindings = <&kp HOME>;
         };
-	combo_END {
+	    combo_END {
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&kp END>;
         };
-    combo_UNDER {
+        combo_UNDER {
             timeout-ms = <50>;
             key-positions = <21 28>;
             bindings = <&kp UNDER>;
         };
-    combo_MINUS {
+        combo_MINUS {
             timeout-ms = <50>;
             key-positions = <22 27>;
             bindings = <&kp MINUS>;
         };
-    SPACE {
+        space {
             timeout-ms = <50>;
             key-positions = <13 23>;
             bindings = <&kp SPACE>;
         };
-    RETURN {
+        return {
             timeout-ms = <50>;
             key-positions = <14 24>;
             bindings = <&kp RET>;
