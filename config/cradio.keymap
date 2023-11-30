@@ -198,7 +198,7 @@
        &td F11 F1        &td F12 F2           &td F13 F3        &td F14 F4     &td F15 F5         &td F16 F6         &td F17 F7         &td F18 F8       &td F19 F9           &td F20 F10
        &kp LG(BSPC)      &kp LA(BSPC)         &kp BSPC          &kp LBKT       &kp RBKT           &td RG(LEFT) LEFT  &td PG_UP UP       &td PG_DN DOWN   &td RG(RIGHT) RIGHT  &kp PIPE
        &kp LG(LS(N5))    &kp LG(LS(LC(N4)))   &td GRAVE TILDE   &kp LBRC       &kp RBRC           &kp RA(LEFT)       &td PLUS EQUAL     &td UNDER MINUS  &kp RA(RIGHT)        &kp BSLH
-                                                 &trans         &none          &kp RET            &kp BSPC
+                                                 &trans         &none          &kp RET            &td RA(DEL) DEL
                         >;
                 };
             
