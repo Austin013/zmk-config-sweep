@@ -12,14 +12,8 @@
 #define Devices  3
 #define Left     4
 
-
-
-&sk {
-    release-after-ms = <3000>;
-};
-
 / { 
- combos {
+    combos {
         compatible = "zmk,combos";
         CAPS {
             timeout-ms = <50>;
