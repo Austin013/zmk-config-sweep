@@ -167,7 +167,7 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <220>;
-            quick_tap_ms = <0>;
+            quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -188,7 +188,7 @@
                 Work {
                         bindings = <
        &td EXCL Q       &td AT W     &td HASH F      &td DLLR P            &td PRCNT B         &td CARET J   &td AMPS L    &td STAR U     &td LPAR Y    &td RPAR SQT
-       &kp A            &hm LCTRL R  &hm LALT S      &hm LGUI T            &hm LSHFT G         &hm RSHIFT M  &hm RGUI N    &hm RALT E     &hm RCTRL     &kp O
+       &kp A            &hm LCTRL R  &hm LALT S      &hm LGUI T            &hm LSHFT G         &hm RSHIFT M  &hm RGUI N    &hm RALT E     &hm RCTRL I   &kp O
        &kp Z            &lt 3 X      &td LG(C) C     &kp D                 &td LG(V) V         &kp K         &kp H         &kp COMMA      &kp DOT       &kp FSLH
                                                      &lt 1 LGUI              &lt 2 SPACE       &lt 4 RET     &td RA(BSPC) BSPC
                         >;
