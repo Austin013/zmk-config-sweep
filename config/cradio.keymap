@@ -62,12 +62,12 @@
         };
         apps {
             timeout-ms = <50>;
-            key-positions = <8 9>;
+            key-positions = <2 7>;
             bindings = <&kp LC(UP)>;
         };
         windows {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <1 9>;
             bindings = <&kp LC(DOWN)>;
         };
         combo_BACK {
@@ -86,12 +86,12 @@
             bindings = <&kp TAB>;
         };
         win_left {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <10 11 12>;
             bindings = <&kp LC(LEFT)>;
         };
         win_right {
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             key-positions = <17 18 19>;
             bindings = <&kp LC(RIGHT)>;
         };
@@ -188,17 +188,17 @@
                 Work {
                         bindings = <
        &td EXCL Q       &td AT W     &td HASH F      &td DLLR P            &td PRCNT B         &td CARET J   &td AMPS L    &td STAR U     &td LPAR Y    &td RPAR SQT
-       &kp A            &hm LCTRL R  &hm LALT S      &hm LGUI T            &hm LSHFT G         &hm RSHIFT M  &hm RGUI N    &hm RALT E     &hm RCTRL I   &kp O
+       &lt 1 A          &hm LCTRL R  &hm LALT S      &hm LGUI T            &hm LSHFT G         &hm RSHIFT M  &hm RGUI N    &hm RALT E     &hm RCTRL I   &lt 1 O
        &kp Z            &lt 3 X      &td LG(C) C     &kp D                 &td LG(V) V         &kp K         &kp H         &kp COMMA      &kp DOT       &kp FSLH
-                                                     &lt 1 LGUI              &lt 2 SPACE       &lt 4 RET     &td RA(BSPC) BSPC
+                                                     &kp LEFT_GUI              &lt 2 SPACE       &lt 4 RET     &td RA(BSPC) BSPC
                         >;
                 };
                 Arrows {
                         bindings = <
        &td F11 F1        &td F12 F2           &td F13 F3        &td F14 F4     &td F15 F5         &td F16 F6         &td F17 F7         &td F18 F8       &td F19 F9           &td F20 F10
-       &kp LG(BSPC)      &kp LA(BSPC)         &kp BSPC          &kp LBKT       &kp RBKT           &td RG(LEFT) LEFT  &td PG_UP UP       &td PG_DN DOWN   &td RG(RIGHT) RIGHT  &kp PIPE
-       &kp LG(LS(N5))    &kp LG(LS(LC(N4)))   &td GRAVE TILDE   &kp LBRC       &kp RBRC           &kp RA(LEFT)       &td PLUS EQUAL     &td UNDER MINUS  &kp RA(RIGHT)        &kp BSLH
-                                                 &trans         &none          &kp RET            &td RA(DEL) DEL
+       &trans            &kp LA(BSPC)         &kp BSPC          &kp LBKT       &kp RBKT           &td RG(LEFT) LEFT  &td PG_UP UP       &td PG_DN DOWN   &td RG(RIGHT) RIGHT  &trans
+       &kp LG(LS(N5))    &kp LG(LS(LC(N4)))   &td GRAVE TILDE   &kp LBRC       &kp RBRC           &kp RA(LEFT)       &td PLUS EQUAL     &td UNDER MINUS  &kp RA(RIGHT)        &td BSLH PIPE
+                                                 &kp LG(BSPC)         &none          &kp RET            &td RA(DEL) DEL
                         >;
                 };
             
@@ -213,9 +213,9 @@
 
 		Devices {
 			bindings = <
-        &none       &none       &none      &bt BT_CLR  &bootloader             &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4
-        &none       &none       &none      &none       &none                   &none          &kp C_PWR       &none           &none            &none
-        &none       &trans      &none      &none       &none                   &kp C_MUTE     &none           &none           &none            &none
+        &none          &none       &none      &none       &bt BT_CLR             &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4
+        &none          &none       &none      &none       &none                   &none          &kp C_PWR       &none           &none            &none
+        &bootloader    &trans      &none      &none       &none                   &kp C_MUTE     &none           &none           &none            &bootloader
                                            &none       &none                   &kp C_VOL_UP   &kp C_VOLUME_DOWN
 			>;
 		};
