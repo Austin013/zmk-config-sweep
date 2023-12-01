@@ -35,24 +35,19 @@
             key-positions = <1 2 3>;
             bindings = <&to 0>;    
         };
-        tilde {
-            timeout-ms = <50>;
-            key-positions = <2 3>;
-            bindings = <&kp TILDE>;
-        };
         clicking {
             timeout-ms = <50>;
-            key-positions = <3 4>;
+            key-positions = <2 3>;
             bindings = <&kp LG(LA(X))>;
         };
         scrolling {
             timeout-ms = <50>;
-            key-positions = <5 6>;
+            key-positions = <6 7>;
             bindings = <&kp LG(LS(J))>;
         };
         nihongo {
             timeout-ms = <50>;
-            key-positions = <6 7>;
+            key-positions = <6 7 8>;
             bindings = <&kp LANG1>;
         };
         english {
@@ -67,7 +62,7 @@
         };
         windows {
             timeout-ms = <50>;
-            key-positions = <1 9>;
+            key-positions = <1 8>;
             bindings = <&kp LC(DOWN)>;
         };
         combo_BACK {
@@ -197,8 +192,8 @@
                         bindings = <
        &td F11 F1        &td F12 F2           &td F13 F3        &td F14 F4     &td F15 F5         &td F16 F6         &td F17 F7         &td F18 F8       &td F19 F9           &td F20 F10
        &trans            &kp LA(BSPC)         &kp BSPC          &kp LBKT       &kp RBKT           &td RG(LEFT) LEFT  &td PG_UP UP       &td PG_DN DOWN   &td RG(RIGHT) RIGHT  &trans
-       &kp LG(LS(N5))    &kp LG(LS(LC(N4)))   &td GRAVE TILDE   &kp LBRC       &kp RBRC           &kp RA(LEFT)       &td PLUS EQUAL     &td UNDER MINUS  &kp RA(RIGHT)        &td BSLH PIPE
-                                                 &kp LG(BSPC)         &none          &kp RET            &td RA(DEL) DEL
+       &kp LG(LS(N5))    &kp LG(LS(LC(N4)))   &td GRAVE TILDE   &kp LBRC       &kp RBRC           &kp RA(LEFT)       &td PLUS EQUAL     &td RA(DEL) DEL  &kp RA(RIGHT)        &td BSLH PIPE
+                                                 &kp LG(BSPC)         &none          &kp RET            &td RA(BSPC) BSPC
                         >;
                 };
             
