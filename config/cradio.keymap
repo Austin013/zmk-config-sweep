@@ -97,12 +97,12 @@
         };
         combo_COLON {
             timeout-ms = <30>;
-            key-positions = <11 18>;
+            key-positions = <12 17>;
             bindings = <&kp COLON>;
         };
         combo_SEMI {
             timeout-ms = <30>;
-            key-positions = <12 17>;
+            key-positions = <11 18>;
             bindings = <&kp SEMI>;
         };
         combo_MoveToLeftTab {
