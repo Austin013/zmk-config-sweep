@@ -16,8 +16,8 @@
     combos {
         compatible = "zmk,combos";
         caps {
-            timeout-ms = <50>;
-            key-positions = <0 9>;
+            timeout-ms = <30>;
+            key-positions = <3 6>;
             bindings = <&kp CAPS>;
         };
         esc {
@@ -27,12 +27,12 @@
         };
         numpad_left {
             timeout-ms = <30>;
-            key-positions = <1 3>;
+            key-positions = <1 2 3>;
             bindings = <&to 4>;    
         };
         default {
             timeout-ms = <30>;
-            key-positions = <1 2 3>;
+            key-positions = <1 3>;
             bindings = <&to 0>;    
         };
         clicking {
@@ -199,27 +199,27 @@
             
                 Numbers {
                         bindings = <
-       &td KP_N6 KP_N1  &td KP_N7 KP_N2  &td KP_N8 KP_N3    &td KP_N9 KP_N4     &td KP_N0 KP_N5       &kp PLUS   &kp KP_N7   &kp KP_N8     &kp KP_N9  &kp BSPC
-       &sk LGUI         &mkp MB3         &td LS(UP) UP      &td LA(V) LA(H)     &mkp MB1              &kp MINUS  &kp KP_N4   &kp KP_N5     &kp KP_N6  &kp DOT
-       &sk LSHFT  &td LS(LEFT) LEFT    &td LS(DOWN) DOWN  &td LS(RIGHT) RIGHT   &mkp MB2              &kp STAR   &kp KP_N1   &kp KP_N2     &kp KP_N3  &kp FSLH
+       &td KP_N6 KP_N1  &td KP_N7 KP_N2      &td KP_N8 KP_N3    &td KP_N9 KP_N4       &td KP_N0 KP_N5       &kp PLUS   &kp KP_N7   &kp KP_N8     &kp KP_N9  &kp BSPC
+       &sk LGUI         &mkp MB3             &td LS(UP) UP      &td LA(V) LA(H)       &mkp MB1              &kp MINUS  &kp KP_N4   &kp KP_N5     &kp KP_N6  &kp DOT
+       &sk LSHFT        &td LS(LEFT) LEFT    &td LS(DOWN) DOWN  &td LS(RIGHT) RIGHT   &mkp MB2              &kp STAR   &kp KP_N1   &kp KP_N2     &kp KP_N3  &kp FSLH
                                                           &none                 &trans                &kp RET    &kp KP_N0
                         >;
                 };
 
 		Devices {
 			bindings = <
-        &none          &none       &none      &none       &bt BT_CLR             &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4
-        &none          &none       &none      &none       &none                   &none          &kp C_PWR       &none           &none            &none
-        &bootloader    &none      &none      &trans       &none                   &kp C_MUTE     &none           &none           &none            &bootloader
+        &none          &none       &none      &none       &bt BT_CLR           &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4
+        &none          &none       &none      &none       &none                &none          &kp C_PWR      &none           &none            &none
+        &bootloader    &none      &none      &trans       &none                &kp C_MUTE     &kp C_PP       &none           &none            &bootloader
                                            &none       &none                   &kp C_VOL_UP   &kp C_VOLUME_DOWN
 			>;
 		};
 
         Left {
 			bindings = <
-        &kp BSPC     &kp KP_N9       &kp KP_N8      &kp KP_N7     &kp PLUS         &none   &none  &none  &none   &none
-        &kp FSLH     &kp KP_N6       &kp KP_N5      &kp KP_N4     &kp MINUS        &none   &none  &none  &none   &none
-        &kp DOT      &kp KP_N3       &kp KP_N2      &kp KP_N1     &kp STAR         &none   &none  &none  &none   &none
+        &kp BSPC     &kp KP_N7       &kp KP_N8      &kp KP_N9     &kp PLUS         &none   &none  &none  &none   &none
+        &kp FSLH     &kp KP_N4       &kp KP_N5      &kp KP_N6     &kp MINUS        &none   &none  &none  &none   &none
+        &kp DOT      &kp KP_N1       &kp KP_N2      &kp KP_N3     &kp STAR         &none   &none  &none  &none   &none
                                                     &kp KP_N0     &kp RET          &trans   &none
 			>;
 		};
