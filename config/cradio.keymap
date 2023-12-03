@@ -51,7 +51,7 @@
             bindings = <&kp LANG1>;
         };
         english {
-            timeout-ms = <50>;
+            timeout-ms = <50>; 
             key-positions = <17 18>;
             bindings = <&kp LANG2>;
         };
