@@ -92,7 +92,7 @@
         };
         spotlight {
             timeout-ms = <30>;
-            key-positions = <14 24>;
+            key-positions = <13 16>;
             bindings = <&kp LG(SPACE)>;
         };
         combo_COLON {
