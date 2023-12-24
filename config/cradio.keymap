@@ -17,7 +17,7 @@
         compatible = "zmk,combos";
         caps {
             timeout-ms = <30>;
-            key-positions = <3 6>;
+            key-positions = <2 7>;
             bindings = <&kp CAPS>;
         };
         esc {
@@ -57,7 +57,7 @@
         };
         apps {
             timeout-ms = <50>;
-            key-positions = <2 7>;
+            key-positions = <3 6>;
             bindings = <&kp LC(UP)>;
         };
         windows {
@@ -75,10 +75,10 @@
             key-positions = <11 12>;
             bindings = <&kp LG(RBKT)>;
         };
-        combo_TAB {
+        combo_undo {
             timeout-ms = <30>;
             key-positions = <12 13>;
-            bindings = <&kp TAB>;
+            bindings = <&kp LG(Z)>;
         };
         win_left {
             timeout-ms = <50>;
