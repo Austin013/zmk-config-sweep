@@ -83,12 +83,12 @@
         win_left {
             timeout-ms = <50>;
             key-positions = <13 14>;
-            bindings = <&kp LC(LEFT)>;
+            bindings = <&kp LC(RIGHT)>;
         };
         win_right {
             timeout-ms = <50>;
             key-positions = <15 16>;
-            bindings = <&kp LC(RIGHT)>;
+            bindings = <&kp LC(LEFT)>;
         };
         spotlight {
             timeout-ms = <30>;
