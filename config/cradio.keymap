@@ -17,7 +17,7 @@
         compatible = "zmk,combos";
         caps {
             timeout-ms = <30>;
-            key-positions = <2 7>;
+            key-positions = <14 15>;
             bindings = <&kp CAPS>;
         };
         esc {
@@ -92,7 +92,7 @@
         };
         spotlight {
             timeout-ms = <30>;
-            key-positions = <14 15>;
+            key-positions = <2 7>;
             bindings = <&kp LG(SPACE)>;
         };
         combo_COLON {
