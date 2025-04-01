@@ -77,7 +77,7 @@
         };
         combo_undo {
             timeout-ms = <30>;
-            key-positions = <12 13>;
+            key-positions = <21 23>;
             bindings = <&kp LG(Z)>;
         };
         spotlight {
@@ -190,7 +190,7 @@
 			bindings = <
         &none          &none       &none      &none       &bt BT_CLR           &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4
         &none          &none       &none      &none       &none                &none          &kp C_PWR      &none           &none            &none
-        &bootloader    &none      &none       &none       &none                &kp C_PREV     &kp C_NEXT     &kp C_VOL_UP    &kp C_VOL_DN     &bootloader
+        &bootloader    &none      &none       &none       &none                &kp C_PREV     &kp C_NEXT     &kp C_VOL_DN    &kp C_VOL_UP     &bootloader
                                             &trans       &none                 &kp C_MUTE   &kp C_PP
 			>;
 		};
